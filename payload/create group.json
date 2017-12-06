@@ -1,0 +1,12 @@
+{
+	"APIInfo" : "Create a new group",
+	"route" : "/api/groups" ,
+	"method" :"POST",
+	"jsondata":{
+		  "group":
+		  {
+		    "name":"group123"
+		  }
+		},
+    "headers" : "access-token = <access-token>"
+}

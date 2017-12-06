@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List Contacts for ride request",
+	"route" : "/api/contacts?search=ride&date=2015-01-11&time=03:10 pm",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

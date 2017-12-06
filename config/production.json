@@ -1,0 +1,11 @@
+{
+    "port": 80,  
+    "dbname": "ucorsa",
+    "dbuser": "ucorsa",
+    "dbpass" :"password",
+    "dbhost": "ucorsaprimary.caadhaadpjh8.us-west-2.rds.amazonaws.com",
+     "googleAPIkey" :  "AIzaSyDAHXIL6CCIhZ7FJzLDB4hRnB6oxgdlIGI"  ,
+    "resetPassword" : "newPassword",
+    "dbport" : "3306",
+    "stripeKey" : "sk_live_IeD9uw3mIBkMxmEZxCYq0lxe"
+}

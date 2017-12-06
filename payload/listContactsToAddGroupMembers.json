@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List contacts to add during adding groups..this looks similar to appusingcontacts API ..the difference is this one fetch data from contacts table.",
+	"route" :  "/api/showContacts",
+	"method" : "GET",
+	"jsondata" : "NA",
+	"headers" : "access-token = <access-token>"
+}

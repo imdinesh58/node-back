@@ -1,0 +1,82 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="")
+    meta(name="author", content="")
+    title Help
+    link(href="/bootstrap/css/bootstrap.min.css", rel="stylesheet")
+    link(href="/css/style.css", rel="stylesheet")
+  body(role="document")
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        #navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href="#") Help
+    section.slidertop
+      #carousel-example-generic.carousel.slide(data-ride="carousel")
+        ol.carousel-indicators
+          li.active(data-target="#carousel-example-generic", data-slide-to="0")
+          li(data-target="#carousel-example-generic", data-slide-to="1")
+          li(data-target="#carousel-example-generic", data-slide-to="2")
+        .carousel-inner(role="listbox")
+          .item.active
+            img(src="/images/slider1.png", alt="First slide")
+            .container
+              .carousel-caption
+                h2
+                  span uCorsa 
+          .item
+            img(src="/images/slider2.png", alt="Second slide")
+            .container
+              .carousel-caption
+                h2
+                  span uCorsa 
+          .item
+            img(src="/images/slider3.png", alt="Third slide")
+            .container
+              .carousel-caption
+                h2
+                  span uCorsa 
+        a.left.carousel-control(href="#carousel-example-generic", role="button", data-slide="prev")
+          span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+          span.sr-only Previous
+        a.right.carousel-control(href="#carousel-example-generic", role="button", data-slide="next")
+          span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+          span.sr-only Next
+    .container
+      .row
+        .col-md-12
+          br
+      .row
+        .col-md-12
+          table.table.table-bordered
+            thead
+              tr
+                th #
+                th API Info
+                th Route
+                th Method
+                th JSON-Data
+                th.col-md-4 Headers
+            tbody
+            for value , index in data 
+              tr
+                td #{index+1}
+                td #{value.APIInfo}
+                td #{value.route}
+                td  #{value.method}
+                td #{value.jsondata}
+                td #{value.headers}
+             
+    script(src="/js/jquery.js")
+    script(src="/bootstrap/js/bootstrap.min.js")

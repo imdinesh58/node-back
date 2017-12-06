@@ -1,0 +1,24 @@
+{
+	"APIInfo" : "After a user get registered to the app, he send his phone lists to compare for registered users ..only returns value when someone from his contacts registered in app",
+	"route" :  "/api/contacts/sync",
+	"method" : "POST",
+	"jsondata" : 
+	{
+		  "contacts" : [
+		    {
+		    "name" : "asd",
+		    "phone" : "33"
+		  },{
+		    "name" : "asd",
+		    "phone" : "34"
+		  },{
+		    "name" : "asd",
+		    "phone" : "35"
+		  },{
+		    "name" : "asd",
+		    "phone" : "9500984472"
+		  }]
+
+		},
+	"headers" : "access-token = <access-token>"
+}

@@ -1,0 +1,9 @@
+{
+	"APIInfo" : "Update a user data",
+	"route" : "/api/users",
+	"method" :"PUT",
+	"jsondata":   {
+		  "user" : {"first_name":"pop","last_name":"thangam5","gender":"M","user_role":"D","dob":"1966-11-20","email":"rtrrtt@gmail.com","phone":"4022022021","driver_cnt":"1","smoker":"N","update_user":"admin"}
+	},
+    "headers" : "access-token = <access-token>"
+}

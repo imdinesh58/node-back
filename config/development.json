@@ -1,0 +1,11 @@
+{
+    "port": 3000,  
+    "dbname": "ucorsa",
+    "dbuser": "chembian",
+    "dbpass" :"chembianpwd",
+    "dbhost": "awschembian.cgfaaj9s1pqg.us-west-2.rds.amazonaws.com",
+     "googleAPIkey" :  "AIzaSyDAHXIL6CCIhZ7FJzLDB4hRnB6oxgdlIGI"  ,
+    "resetPassword" : "newPassword",
+    "dbport" : "3306",
+    "stripeKey" : "sk_live_IeD9uw3mIBkMxmEZxCYq0lxe"
+}

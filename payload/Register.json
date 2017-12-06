@@ -1,0 +1,24 @@
+{
+	"APIInfo" : "User Registration",
+	"route" : "/register",
+	"method" :"POST",
+	"jsondata": {
+		  "user": {  
+			    "first_name" : "dino",
+			    "email": "rtrrtt@gmail.com",
+			    "phone": "123123"
+			  },
+			  "authentication": {
+			    "user_login": "dino",
+			    "user_password": "password"
+			  },
+			  "payments": {   
+			    "credit_card_name" :"senthil",
+			    "credit_card_number" : "12312312",
+			    "credit_card_expiry_month" : "12",
+			    "credit_card_expiry_year" : "2016"
+			  }
+			  
+			},
+    "headers" : "NA"
+}

@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List Users ride history",
+	"route" : "/api/rides/history",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

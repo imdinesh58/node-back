@@ -1,0 +1,13 @@
+{
+	"APIInfo" : "Cancel a ride by a driver",
+	"route" :  "/api/drives/cancel",
+	"method" : "POST",
+	"jsondata" : 
+	{"reply":
+	 {   
+	  "status":"YES",
+	   "ride_id" : "2340"
+	 }
+	},
+	"headers" : "access-token = <access-token>"
+}

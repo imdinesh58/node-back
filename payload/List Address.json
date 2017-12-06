@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List user's address data",
+	"route" : "/api/address",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

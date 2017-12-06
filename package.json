@@ -1,0 +1,42 @@
+{
+  "name": "ucorsa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "express-domain-middleware" : "*",
+    "mysql":"*",
+    "cluster" :"*",
+    "convict" : "*",
+    "winston" : "*",
+    "morgan"  : "*"	,
+    "bcrypt-nodejs" : "*",
+    "jwt-simple" : "*",
+    "async" : "*",
+    "moment" : "*",
+    "moment-timezone" : "*",
+    "set-timezone-time" : "*",
+    "node-gcm" : "*",
+    "gcm" : "*",
+    "fs" : "*",
+    "sendmail" : "*",
+    "underscore" : "*",
+    "nodemailer" : "*",
+    "arrowdb" : "*",
+    "google-libphonenumber" : "*",
+    "node-postfinance " :"*",
+    "paypal-rest-sdk" : "*",
+    "stripe" : "*",
+    "later" : "*",
+    "node-schedule" :"*",
+    "cors" : "*",
+    "facebook-node-sdk" : "*",
+    "google-auth-library" : "*",
+    "request" : "*",
+    "googleapis" : "*"
+}
+}

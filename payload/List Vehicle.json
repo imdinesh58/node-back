@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List user's vehicle data",
+	"route" : "/api/vehicle" ,
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" : "access-token = <access-token>"
+}

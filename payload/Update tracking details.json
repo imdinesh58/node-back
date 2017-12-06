@@ -1,0 +1,16 @@
+{
+	"APIInfo" : "update tracking details for a ride",
+	"route" :  "/api/tracking",
+	"method" : "PUT",
+	"jsondata" : {
+		  "tracking" : {
+			    "ride_id" : "21234",
+			    "latitude" : "12.12",
+			    "longitude" :"12.12",
+			    "update_user" :"aqeadasdasdasd"
+			  },
+			  "tracking_id": "11"   
+			},
+	
+	"headers" : "access-token = <access-token>"
+}

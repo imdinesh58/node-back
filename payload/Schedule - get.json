@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List users schedule data",
+	"route" : "/api/drives/schedule?date=2016-01-11&start_time=15:00:00&end_time=15:15:00",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

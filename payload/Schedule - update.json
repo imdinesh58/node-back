@@ -1,0 +1,12 @@
+{
+	"APIInfo" : "Update user's schedule data",
+	"route" : "/api/drives/schedule/:id" ,
+	"method" :"PUT",
+	"jsondata": {
+		"drive_date" :  "2016-01-11",
+		"start_time" :  "15:00:00",
+		 "end_time"   : "15:15:00",
+		"description": "Test"   						 
+		},
+    "headers" : "access-token = <access-token>"
+}

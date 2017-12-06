@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "Add address data to a user",
+	"route" : "/api/address" ,
+	"method" :"POST",
+	"jsondata": { "address" :{ "address1": "ww", "address2": "", "city": "Omaha", "state": "NE", "zip": "68135", "latitude": "12", "longitude": "123" } },
+    "headers" : "access-token = <access-token>"
+}

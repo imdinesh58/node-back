@@ -1,0 +1,36 @@
+{
+	"APIInfo" : "Add a ride request",
+	"route" :  "/api/ride",
+	"method" : "POST",
+	"jsondata" : 
+	{
+		  "rideData" :
+		    {
+		  "from_location": "tanjore",
+		  "to_location": "trichy",
+		  "ride_date": "1954-04-11",
+		  "ride_time": "21:23:00",
+		  "ride_type": "O",
+		  "recurring": "F",
+		  "trip_type": "5",
+		  "ride_request_to": [
+		    					{"id" : "1",
+		                         "type" : "I"
+		                        },
+		    
+		                        {"id" : "26",
+		                         "type" : "S"
+		                        },
+		    
+		                        {"id" : "31",
+		                         "type" : "S"
+		                        },
+		    
+		                        {"id" : "100",
+		                         "type" : "G"
+		                        }
+		    				]
+				}
+		},
+	"headers" : "access-token = <access-token>"
+}

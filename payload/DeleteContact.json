@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "Delete a contact",
+	"route" :  "/api/contacts/:id",
+	"method" : "Delete",
+	"jsondata" : "NA",
+	"headers" : "access-token = <access-token>"
+}

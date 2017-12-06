@@ -1,0 +1,14 @@
+{
+	"APIInfo" : "Delete members in a group",
+	"route" : "/api/deleteGroupMembers",
+	"method" :"DELETE",
+	"jsondata":{
+		  "groupname": "swimming",
+		  "members" : [
+		    {"phone" : "9677888297"},
+		    {"phone" : "8220120941"}
+		  ]
+		   
+		},
+    "headers" : "access-token = <access-token>"
+}

@@ -1,0 +1,12 @@
+{
+	"APIInfo" : "Respond to ride request",
+	"route" : "/api/rides/accept",
+	"method" :"POST",
+	"jsondata": {"reply":
+	 {   
+		  "status":"YES",
+		   "ride_id" : "428"
+		 }
+		},
+    "headers" : "access-token = <access-token>"
+}

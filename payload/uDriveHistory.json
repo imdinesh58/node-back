@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List Users  drive history",
+	"route" : "/api/drives/history",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

@@ -1,0 +1,13 @@
+{
+	"APIInfo" : "Update a group",
+	"route" : "/api/groups/:id",
+	"method" :"PUT",
+	"jsondata":{
+		  "group": {
+			    "oldname" : "group123",
+			    "newname" : "karate" 
+			  }
+			   
+			},
+    "headers" : "access-token = <access-token>"
+}

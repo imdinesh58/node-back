@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List Users upcoming rides",
+	"route" : "/api/rides",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

@@ -1,0 +1,12 @@
+{
+	"APIInfo" : "Add users schedule data",
+	"route" : "/api/drives/schedule" ,
+	"method" :"POST",
+	"jsondata": {
+		"drive_date" :  "2016-01-11",
+		"start_time" :  "15:00:00",
+		 "end_time"   : "15:15:00",
+		"description": "Test"   						 
+		},
+    "headers" : "access-token = <access-token>"
+}

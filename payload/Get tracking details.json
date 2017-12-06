@@ -1,0 +1,11 @@
+{
+	"APIInfo" : "Get tracking details for a ride",
+	"route" :  "/api/getTracking",
+	"method" : "POST",
+	"jsondata" : 
+	{
+		  "tracking_id": "11"
+		 
+		},
+	"headers" : "access-token = <access-token>"
+}

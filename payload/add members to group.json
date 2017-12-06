@@ -1,0 +1,14 @@
+{
+	"APIInfo" : "Add members to the group",
+	"route" : "/api/addGroupMembers",
+	"method" :"POST",
+	"jsondata":{
+		  "groupname": "swimming",
+		  "members" : [
+		    {"phone" : "9677888297"},
+		    {"phone" : "12312312"}
+		  ]
+		   
+		},
+    "headers" : "access-token = <access-token>"
+}

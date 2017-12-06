@@ -1,0 +1,12 @@
+{
+	"APIInfo" : "Update User's auth data",
+	"route" :  "/api/auth",
+	"method" : "PUT",
+	"jsondata" :  {
+		  "authentication" : {  
+			    "old_password" : "password1111121",
+			    "new_password" : "password"
+			  }
+			},
+	"headers" : "access-token = <access-token>"
+}

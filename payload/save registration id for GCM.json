@@ -1,0 +1,15 @@
+{
+	"APIInfo" : "Saves the registration id for GCM after a user does login",
+	"route" :  "/api/token",
+	"method" : "POST",
+	"jsondata" : 
+	{
+		  "device_info":
+		{
+		  "device_id" :"23123",
+		  "device_os" : "android",
+		  "notification_id" : "111111111" 
+		}
+		},
+	"headers" : "access-token = <access-token>"
+}

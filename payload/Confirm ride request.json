@@ -1,0 +1,13 @@
+{
+	"APIInfo" : "Confirm a ride request",
+	"route" :  "/api/rides/confirm",
+	"method" : "POST",
+	"jsondata" : 
+	{"reply":
+	 {  
+	   "ride_id" : "2286",
+	   "driver_id" : "88"
+	 }
+	},
+	"headers" : "access-token = <access-token>"
+}

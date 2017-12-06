@@ -1,0 +1,10 @@
+{
+	"APIInfo" : "Checks whether phone exists during registration...returns false when phone already exists else returns true",
+	"route" :  "/checkphone",
+	"method" : "POST",
+	"jsondata" : 	 {
+		  "phone" : "33"  
+
+		},
+	"headers" : "NA"
+}

@@ -1,0 +1,8 @@
+
+{
+	"APIInfo" : "Update a user's address data",
+	"route" : "/api/address/:id",
+	"method" :"PUT",
+	"jsondata": { "address" :{ "address1": "17365 we Cir", "address2": "", "city": "Omaha", "state": "NE", "zip": "68135", "latitude": "12", "longitude": "123" } },
+    "headers" : "access-token = <access-token>"
+}

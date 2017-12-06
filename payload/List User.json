@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List details of particular user",
+	"route" : "/api/users",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

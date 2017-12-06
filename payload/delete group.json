@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "Delete a group",
+	"route" : "/api/groups/:id",
+	"method" :"DELETE",
+	"jsondata":"NA",
+    "headers" : "access-token = <access-token>"
+}

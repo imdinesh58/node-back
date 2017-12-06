@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "Add vehicle data to a user",
+	"route" : "/api/vehicle" ,
+	"method" :"POST",
+	"jsondata": { "vehicles" : { "car_model": "dasdasdas", "car_mileage": "33", "car_year": "33", "car_seats": "5" } },
+    "headers" : "access-token = <access-token>"
+}

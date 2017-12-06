@@ -1,0 +1,11 @@
+{
+	"APIInfo" : "Checks whether userlogin exists during registration...returns false when userlogin already exists else returns true",
+	"route" :  "/checkuserlogin",
+	"method" : "POST",
+	"jsondata" :  
+	{
+		  "user_login" : "prem"  
+
+		},
+	"headers" : "NA"
+}

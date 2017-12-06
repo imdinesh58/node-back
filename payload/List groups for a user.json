@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List the groups created by the user",
+	"route" :  "/api/groups",
+	"method" : "GET",
+	"jsondata" : "NA",
+	"headers" : "access-token = <access-token>"
+}

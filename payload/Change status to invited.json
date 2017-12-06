@@ -1,0 +1,14 @@
+{
+	"APIInfo" : "After user register and login , he gets list of registered and not regsistered users from his contacts list  ( by --> /api/listAppUsingPhoneContacts API)..this API works when user sends invitation to not registered users..",
+	"route" :  "/api/contacts/changeStatustoInvited",
+	"method" : "POST",
+	"jsondata" : 
+	{
+		  "contact" : 
+		    {
+		    "name" : "asd",
+		    "phone" : "35"
+		  	}
+		},
+	"headers" : "access-token = <access-token>"
+}

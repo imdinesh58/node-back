@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "List user's Auth data",
+	"route" : "/api/auth",
+	"method" :"GET",
+	"jsondata": "NA",
+    "headers" :  "access-token = <access-token>"
+}

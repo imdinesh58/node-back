@@ -1,0 +1,11 @@
+
+{
+	"APIInfo" : "Login Check",
+	"route" : "/login",
+	"method" :"POST",
+	"jsondata": {
+		  "userId" :" dharanee",
+		  "password" : " password "
+		},
+    "headers" : "NA"
+}

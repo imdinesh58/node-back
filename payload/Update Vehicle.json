@@ -1,0 +1,7 @@
+{
+	"APIInfo" : "Update vehicle data to a user",
+	"route" : "/api/vehicle/:id",
+	"method" :"PUT",
+	"jsondata": { "vehicles" : { "car_model": "qq", "car_mileage": "212", "car_year": "2011", "car_seats": "2" } },
+    "headers" : "access-token = <access-token>"
+}
